@@ -1,0 +1,496 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav bar start here */
+
+.head {
+    background-color:#952323;
+
+}
+.antlogo {
+    width: 205px;
+    height: 61px;
+}
+.antlogo img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a#navbarDropdown {
+    padding: 0px 40px;
+    color: white;
+    font-size: 15px;
+}
+
+a#navbarDropdown:hover
+{
+    color: black;
+}
+a.dropdown-item {
+    font-size: 12px;
+}
+
+a.dropdown-item:hover
+{
+    color:blue;
+    
+}
+
+
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    padding: 0px 40px;
+}
+
+button.btn.btn-primary {
+    background:#541313d4;
+    color: white;
+    padding: 6px 15px;
+    border: white solid 1px;
+    border-radius: 30px;
+}
+button.btn.btn-primary:hover
+{
+    background-color: black;
+    transition: 2s ease ease-in-out;
+    cursor: pointer;
+    border-color:blue;
+    
+}
+
+/* ant login start here */
+
+
+
+#emailid {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#pasword
+{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+#comform
+{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+/* nav bar form start here */
+
+span
+{
+    font-size: 40px;
+    color: #417c58;
+}
+
+
+/* carusel start here */
+.sildebox
+{
+    height: 500px;
+}
+.sildebox img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 { font-size: 30px;
+    color:black;
+}
+
+p { font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color:black;
+}
+
+/* welcome media page star here */
+.background
+{
+    padding: 30px 30px;
+    background-image:linear-gradient(#00000066, #0000006e), url(images/laptop-5673901_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.hello h1
+{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 30px 0px;
+    font-weight: bold;
+}
+.hello h3
+{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.col-auto {
+    margin: auto;
+    padding: 50px 0px;
+    width: 250px;
+    
+}
+
+
+/* Rechare and bil page here */
+.bg
+{
+    background-image: url(images/smartphone-1284501_1280.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 30px;
+}
+
+
+
+.recharge h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+form.row.row-cols-lg-auto.g-3.align-items-center {
+    width: 500px;
+    margin: auto;
+    padding: 30px 0px;
+}
+select#inlineFormSelectPref {
+    width: 200px;
+   
+
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+form.row.row-cols-lg-auto.g-3.align-items-center {
+    width: 270px;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+
+
+/* Recommended for you start here */
+.plan h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 30px 0px;
+}
+
+
+
+.list
+{
+    text-align: center;
+    padding: 30px 30px;
+    margin: auto;
+
+}
+.list p
+{
+    font-size: 16px;
+    
+}
+.list span 
+{
+    font-size: 24px;
+}
+.list h5
+{
+    color:red ;
+}
+
+h4.card-title {
+    font-size: 16px;
+}
+.cardresize
+{
+    width:auto;
+    height: 300px;
+
+}
+.cardresize img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.backrec {
+    background-image: linear-gradient(#0000009c,#0000009c),url(images/hero-banner-4.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 30px;
+}
+
+/* our purpose start here */
+.purpose h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+}
+
+
+#layout
+{      width: 100%;
+    padding: 50px 20px;
+    background-color:wheat;
+}
+
+
+.twobox h1 {
+    font-size: 35px;
+    color: #417c58;
+    text-align: center;
+    font-weight: 400;
+}
+.twobox p
+{
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    font-weight: 300;
+   
+
+}
+
+.ourimage
+{
+   width: auto;
+   height: 400px;
+    
+}
+.ourimage img {
+    width: 100%;
+    height: 474px;
+    object-fit: cover;
+}
+
+
+/* footer */
+
+.footerbox p {
+    font-size: 14px;
+    color: whitesmoke;
+   
+}
+
+h6.text-uppercase.fw-bold.mb-4 {
+    color: whitesmoke;
+}
+.footerbox span
+{
+    font-size: 14px;
+}
+section.d-flex.justify-content-center.justify-content-lg-between.p-4.border-bottom {
+    background-color: #972f2f;
+    color: whitesmoke;
+}
+footer.text-center.text-lg-start.bg-body-tertiary.text-muted {
+    background-color:#952323;
+   
+}
+a.me-4.text-reset {
+    text-decoration: none;
+}
+
+
+
+
+/* mobile recharge page start here */
+
+.sign
+
+{
+    height: 100vh;
+  background-image: url(images/cover-banner-working-desk-with-gadget-top-view-table-working-free-space-text_33771-1303.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+}
+
+.textup h1
+{
+    text-align: center;
+    margin: 20px 4px;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    
+}
+.textup h1:hover
+{
+    color:#50b7d1;
+    cursor: pointer;
+    
+}
+
+label.form-label {
+    color: white;
+}
+.loginup
+{
+     margin: 0px 40px;
+      height: 200px;
+      border: 2px solid whitesmoke;
+      border-radius: 40px;
+    padding: 50px  50px;
+    box-shadow: 5px 5px 15px #58bdd6;
+    
+    
+}
+
+button.btn.btn-primary {
+    margin: 10px;
+}
+
+.singuplink 
+{
+    text-align: center;
+    
+    
+}
+
+
+
+
+
+
+
+/* view plan code start here */
+
+h2.card-title {
+    color: #bc9f7a;
+    font-size: 16px;
+}
+p.card-text {
+    color: #bc9f7a;
+    font-size: 16px;
+}
+
+.card.border-success.m-2 {
+    background-color: #32888b;
+    color: whitesmoke;
+    text-align: center;
+    border: solid black 2px;
+    box-shadow: 8px 8px 15px black;
+    margin: 10px;
+}
+.view h2
+{
+    font-size: 16px;
+}
+.view p
+{
+    font-size: 16px;
+}
+
+
+.btn-secondary {
+    width: 140px;
+    margin: auto;
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    margin: 10px 30px;
+}
+
+.palnbg
+{
+    
+        background-image:linear-gradient(#00000066, #0000006e),   url(pinkRedOne.svg);
+        
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 65px 30px;
+    
+}
+
+.talk
+{
+    text-align: center;
+    color: whitesmoke;
+}
+

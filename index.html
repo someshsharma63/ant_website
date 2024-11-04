@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+   
+    <!-- code start forme here "header" -->
+<div class="head">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="antlogo">
+            <img src="images/ANT-logos_white.png" alt="" class="img-fluid">
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Prepaid
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Recharge</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">New Prepaid Sim</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">View Plan</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Internationnal Romaing</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Port to ANT Prepaid </a></li>
+                      
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     PostPaid
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="pr">
+                        <li><a class="dropdown-item" href="#">Pay Bill</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Buy New Connection</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">View Plan</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Internationnal Romaing</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Port to ANT  </a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Free Sim Delivery </a></li>
+
+                        
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      DTH
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Recharge</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Buy New Connection</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">View Plan</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#"> ANT speedX  </a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Upgrade Box </a></li>
+                        
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Broadband
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Pay Bill</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Buy New Connection</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">View Plan</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Sign In
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            
+          <h3 class="modal-title" id="exampleModalLabel">Sign to <span>ANT</span> </h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+          <form  method="post" action="">
+            <div class="mb-3">
+              <label for="">Email</label>
+              <input type="email" placeholder="Enter your email id" id="emailid" value="" aria-describedby="emailHelp">
+              <!-- <span id="user"></span> -->
+            </div>
+            <div class="mb-3">
+              <label for="">Password</label>
+              <input type="password" placeholder="Enter your password" id="pasword" value="">
+            </div>
+    
+            <div class="mb-3">
+              <label for="">confirm password</label>
+              <input type="password" placeholder="Confirm password" id="confirm" value="">
+            </div>
+            <!-- <span id="con_pw"></span> -->
+
+            <button onclick="signin()" type="button" value="signin" class="btn btn-primary">Signin</button>
+            
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+          </div>
+        </div>
+      </nav>
+          
+      
+    </div>
+
+ <!-- caruseel start here -->
+
+ <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="sildebox">
+      <img src="images/hero-banner-6.webp" class="d-block w-100" alt="..." class="img-fluid">
+    </div>
+      <div class="carousel-caption d-none d-md-block">
+        <h2> <span>ANT</span> Referral program is here ! </h2>
+        <p>  Get up to ₹300 every time you refer any <span>ANT</span> services to your friends</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="sildebox">
+      <img src="images/hero-banner-1.webp" class="d-block w-100" alt="..." class="img-fluid">
+    </div>
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Wi-Fi like speeds, now on the go.</h2>
+        <p>With <span>ANT</span> 5G Plus. Up to 30x faster</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="sildebox">
+      <img src="images/hero-banner-1.webp" class="d-block w-100" alt="...">
+    </div>
+      <div class="carousel-caption d-none d-md-block">
+        <h2><Span>ANT</Span> speedX is all that you need!</h2>
+        <p>Get 1 plan-1 bill for Mobile, DTH, Fiber and 16+ OTTs</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+      <!-- postcode code start here -->
+
+      <div class="background">
+    <div class="hello">
+      <h1>Welcome to <span>ANT</span> Media</h1>
+  
+      <h3>Enter your postcode to explore our latest deals</h3>
+    </div>
+    <form class="row g-3">
+      <div class="col-auto">
+        <div class="check">
+        <label for="postcode" class="visually-hidden">postcode</label>
+        <input type="text" class="form-control" id="postcode" placeholder="postcode">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Check availablilty</button>
+      </div>
+      </div>
+    </form> 
+      </div>
+
+      <!-- Recommended for you start here --> 
+         <div class="backrec" data-aos="slide-right"
+         data-aos-offset="200"
+         data-aos-delay="50"
+         data-aos-duration="350"
+         data-aos-easing="ease-in-out"
+         data-aos-mirror="true"
+         data-aos-once="true"
+         data-aos-anchor-placement="top-center">
+
+      <div class="container">
+        <div class="plan">
+          <h1>Best for you</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 ">
+            <div class="list  m-1">
+              <div class="card">
+                <div class="cardresize">
+                <img src="images/hero-banner-3.avif" class="card-img-top" alt="..." class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><span>ANT</span>SpeedX</h5>
+                  <h4 class="card-title">Enjoy unlimited wi-fi at ₹999</h4>
+                  <p class="card-text">Up to 200 Mbps speed, unlimited calls & OTT apps</p>
+                  <a href="#" class="btn btn-primary">view more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 ">
+            <div class="list  m-1 ">
+              <div class="card">
+               <div class="cardresize">
+                <img src="images/recommendations-slide-2.webp" class="card-img-top" alt="..." class="img-fluid">
+              </div>
+                <div class="card-body">
+                  <h5 class="card-title">Postpaid</h5>
+                  <h4 class="card-title">Get a superior network at just ₹499</h4>
+                  <p class="card-text">75 GB data with no daily limit & top OTT apps</p>
+                  <a href="#" class="btn btn-primary">view more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 ">
+            <div class="list   m-1 ">
+              <div class="card" >
+                <div class="cardresize">
+                <img src="images/recommendations-slide-3.jpg" class="card-img-top" alt="..." class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Prepaid</h5>
+                  <h4 class="card-title">Enjoy high-speed, seamless network</h4>
+                  <p class="card-text">Home delivery of SIM & Quick activation</p>
+                  <a href="#" class="btn btn-primary">view more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 ">
+            <div class="list   m-1">
+              <div class="card">
+                <div class="cardresize">
+                <img src="images/hero-banner-1.webp" class="card-img-top" alt="..." class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Broadband</h5>
+                  <h4 class="card-title">Unlimited Data per month
+                    @300 Mbps Speed</h4>
+                  <p class="card-text">at just
+                    ₹ 8400 for 6 Months
+                    </p>
+                  <a href="#" class="btn btn-primary">view more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+      <!-- recharge pay bill code start here -->
+
+      <div class="bg">
+        <div class="container">
+        <div class="recharge">
+          <h1>Recharge or pay bills</h1>
+        </div>
+        
+          <form class="row row-cols-lg-auto g-3 align-items-center">
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+              <select class="form-select" id="inlineFormSelectPref">
+                <option selected>Recharges/Pay</option>
+                <li><hr class="dropdown-divider"></li>
+                <option value="1">Prepaid</option>
+                <li><hr class="dropdown-divider"></li>
+                <option value="2">Postpaid</option>
+                <li><hr class="dropdown-divider"></li>
+                <option value="3">DTH</option>
+                <li><hr class="dropdown-divider"></li>
+                <option value="3">Broodband</option>
+                <li><hr class="dropdown-divider"></li>
+                <option value="3">ANT SpeedX</option>
+              </select>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Enter mobile number">
+              </div>
+            </div>
+          
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Recharege</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Our purpose -->
+      <section id="layout">
+        <div class="container">
+          <div class="purpose">
+             <h1>Our Purpose</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="twobox p-3 m-2">
+               <h1>We connect for a better future !</h1>
+               <p>Through our three purpose pillars Digital society, Inclusion for all and Planet we aim to positively transform lives, drive a better digital future and reduce our environmental impact.
+                We believe in a connected digital society, that the opportunities and promise of a better digital future should be accessible to all, and that business success should not come at a cost to the environment.</p>
+              </div>
+            
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="twobox p-3 m-2">
+               <div class="ourimage">
+                <img src="images/hero-banner-6.webp" alt="" class="img-fluid">
+               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer start  here -->
+
+      <div class="footerbox">
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <div class="me-5 d-none d-lg-block">
+      <h5>Get connected with us on social networks:</h5>
+    </div>
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  
+  </section>
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+     
+      <div class="row mt-3">
+        
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+      
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas 3"></i>Avi network Telecommunications.
+          </h6>
+          <p>
+            Avi Network , commonly known as <span>ANT</span>, is an Indian multinational telecommunications services company based in jaipur. ANT provides 5G, 4G and LTE Advanced services all over India.
+          </p>
+        </div>
+      
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+         
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Prepaid</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Postpaid</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">ANTspeedX</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">DTH</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Broadband</a>
+          </p>
+        </div>
+        
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+         
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+    
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i>   + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+      </div>
+  </section>
+</footer>
+</div>
+<!-- Footer -->
+
+
+
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+
+
+</html>
